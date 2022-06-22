@@ -21,9 +21,7 @@ document.querySelector('.busca').addEventListener('submit', async (event) => {
             });
         } else {
             clearInfo();
-            showWarning('Nao encontramos essa localização');
-            console.log('oi');
-
+            showWarning('Não encontramos essa localização.');
         };
     } else {
         clearInfo();
